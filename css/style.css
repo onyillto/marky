@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap');
+
+body {
+    
+    font-family: 'Roboto', sans-serif;
+}
+    /* Custom Styles */
+.section-heading {
+        font-family: "Arial", sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        margin-top: 50px;
+ }
+  
+.navbar-nav{
+    align-items: right;
+}
+/* #hero .container-fluid{
+    max-height: 100vh;
+} */
+h2{
+    font-size: 54px;
+    
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+.mission{
+    text-align: center;
+    height: 10rem;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.line {
+    display: block;
+    width: 150px;
+    height: 3px;
+    
+    margin: 10px auto;
+    border: 10px;
+}
+.vision{
+    text-align: center;
+    height: 10rem;
+    color: #fff;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+/* carousal*/
+.c-item {
+    height: 480px;
+  }
+  
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+  section{
+    min-height: 100vh;
+    
+}
+
+  .contact h2{
+    margin-bottom: 3rem;
+   }
+   .contact form{
+       max-width: 70rem;
+       margin: 1rem auto;
+       text-align: center;
+       margin-bottom: 3rem;
+   }
+   .contact form .input-box{
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+   }
+   .btnn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem ;
+    ;
+    font-size: 1.6rem;
+    letter-spacing: .1rem;
+    font-family: 600;
+    transition: .4s ease;
+    cursor: pointer;
+ }
+ .btnn:hover{
+box-shadow: none;
+ }
+   .contact form .input-box input,
+   .contact form textarea{
+       width: 100%;
+       padding: 1.5rem;
+       font-size: 1.6rem;
+       color: rgb(223, 18, 18);
+       background: #f3efef;
+       border-radius: .8rem;
+       margin: .7rem 0;
+   }
+   .contact form .input-box input{
+       width: 49%;
+   }
+   
+
+/* Footer style */
